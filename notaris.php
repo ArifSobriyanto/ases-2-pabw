@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 
 // Ambil data dari tabel
-$sql = "SELECT * FROM modul_pembelajaran";
+$sql = "SELECT * FROM dokumen";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
